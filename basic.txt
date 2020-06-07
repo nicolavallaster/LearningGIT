@@ -1,0 +1,38 @@
+#So here u see some helpful commands...
+
+#Checkout a repository
+git clone /path/local/
+git clone git@github.com:nicolavallaster/xyz.git
+
+#Add & commit
+# Add specific file
+git add <filename>
+
+# Add all changeed file
+git add .
+git add *
+
+# Add all changed files
+git commit
+
+# Single line commit message
+git commit -m "commit message"
+
+# Multi-line commit message
+git commit -m "commit title" -m "commit body
+  that can be sliced
+  to multiple lines "
+
+#Pushing changes
+git push origin-master
+git git remote add origin <server-url>
+
+#Branching
+# Create a new branch named "feature_x
+git checkout -b feature_x
+
+# To switch back to master
+git checkout master
+
+# To delete the brach again
+git checkout master
